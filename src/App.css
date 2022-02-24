@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+.meme span {
+  position: absolute;
+  margin-top: 290px;
+  font-size: 38px;
+  color: white;
+  width: 100%;
+  left: 0px;
+}
+.meme span:nth-child(1) {
+  margin-top: 60px;
+}
+.meme img {
+  /* width: 100%; */
+}
+body,
+.meme {
+  background-color: #282c34;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.select-container {
+  margin-top: 5rem;
+
+  height: 39px;
+  width: 140px;
+  border-radius: 0.5rem;
+}
+.input {
+  margin-top: 1rem;
+  border: none;
+
+  padding: 10px;
+  width: 25rem;
+  height: 2rem;
+}
+.button {
+  margin-top: 1rem;
+  background-color: #bb9bb0;
+  color: white;
+  padding: 1rem 3rem;
+  margin-top: -1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 0.5rem;
+
+  text-align: center;
+  border: none;
+  margin-top: 3rem;
+}
